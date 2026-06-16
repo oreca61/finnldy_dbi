@@ -6,6 +6,7 @@ API_KEYS = {
 }
 
 
+
 def get_current_role(x_api_key: str = Header(None)):
     if x_api_key is None:
         raise HTTPException(
@@ -24,9 +25,12 @@ def get_current_role(x_api_key: str = Header(None)):
     return role
 
 
+
+
 def require_admin(role: str):
     if role != "admin":
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Keine Berechtigung. Nur Admins dürfen diese Operation ausführen."
         )
+

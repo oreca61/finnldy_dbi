@@ -5,6 +5,7 @@ SQLALCHEMY_DATABASE_URL = "sqlite:///meine_app.db"
 # engine erstellen
 engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args = {"check_same_thread": False})
 
+
 # Sessio erstellen
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
