@@ -1,21 +1,13 @@
-from typing import Type
-
-from fastapi import HTTPException, status
+from fastapi import HTTPException
 from sqlalchemy.orm import Session
-
 from database import Base
 
-
 class BaseAPI:
-    def get_or_404(self, db: Session, model: Type[Base], item_id: int):
-        # SQL-INJECTION-SCHUTZ: von Ki
-
+    def get_or_404(self,db: Session, model:Base, item_id:int):
         item = db.query(model).filter(model.id == item_id).first()
-
         if not item:
-            raise HTTPException(
-                status_code=status.HTTP_404_NOT_FOUND,
-                detail=f"Eintrag in '{model.__tablename__}' mit ID {item_id} nicht gefunden."
-            )
-
+            raise HTTPException(status_code = 404, detail= f"Eintrag in"
+                                                           f"'{model.__tablename__}' mit ID '{item_id}'"
+                                                           f"nicht gefunden.")
         return item
+
