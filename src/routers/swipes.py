@@ -99,7 +99,7 @@ def create_swipe(
         swipe_type=swipe.swipe_type
     )
 
-#KI ende: einrücking vergessen und if user is None einen fehler gehabt
+#KI ende: einrücking vergessen und if user is None und if movie is none einen fehler gehabt
     db.add(new_swipe)
     db.commit()
     db.refresh(new_swipe)
