@@ -1,13 +1,15 @@
+#KI anfang
+# gpt: hab jatzt so ein src folder kannst das bei den imports so ändern dass es auch so jetzt passt?
 from fastapi import APIRouter, Depends, status, HTTPException, Query
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, Field, field_validator
 
-from database import get_db
-from models import DBUser, DBSwipe
-from Routers.base import BaseAPI
-from auth import get_current_role, require_admin
-from logger_config import logger
-
+from src.database import get_db
+from src.models import DBUser, DBSwipe
+from src.routers.base import BaseAPI
+from src.auth import get_current_role, require_admin
+from src.logger_config import logger
+# KI ende
 
 class UserCreate(BaseModel):
     name: str = Field(min_length=2, max_length=20)
@@ -50,7 +52,8 @@ class UserResponse(BaseModel):
     class Config:
         from_attributes = True
 
-
+# Ki anfang
+# gpt: fehlt hier etwas weil eght irgedsiw nicht
 class UserSwipeResponse(BaseModel):
     id: int
     user_id: int
@@ -60,6 +63,12 @@ class UserSwipeResponse(BaseModel):
     class Config:
         from_attributes = True
 
+# Ki ende
+
+class DeleteUserResponse(BaseModel):
+    message: str
+    id: int
+
 
 router = APIRouter(
     prefix="/users",
@@ -68,7 +77,8 @@ router = APIRouter(
 
 base_api = BaseAPI()
 
-
+#Erstellt einen User in der DB -> darf nur Admin
+# Erwartete Daten: name 2-20 Zeichen
 @router.post("/", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
 def create_user(
     user: UserCreate,
@@ -79,7 +89,7 @@ def create_user(
 
     logger.info("POST /users aufgerufen")
 
-    existing_user = db.query(DBUser).filter(DBUser.name == user.name).first()
+    existing_user = db.query(DBUser).filter(DBUser.name == user.name).first() # Singeline chat gpt: kannst du das die anschauen sollte was falsch sein glob
 
     if existing_user:
         raise HTTPException(
@@ -97,7 +107,8 @@ def create_user(
 
     return new_user
 
-
+#Gibt alle User aus Der DB zurück -> Darf admin & user
+#Es drüfen max 100 User zurück gegeben werden pro abfrage 1-100 Wertebereich
 @router.get("/", response_model=list[UserResponse])
 def get_all_users(
     db: Session = Depends(get_db),
@@ -111,6 +122,9 @@ def get_all_users(
 
     return users
 
+#Gibt den einzelnen User anhand seiner ID aus -> darf admin & user
+
+#Ki anfang
 
 @router.get("/{user_id}", response_model=UserResponse)
 def get_user(
@@ -122,7 +136,8 @@ def get_user(
 
     return base_api.get_or_404(db, DBUser, user_id)
 
-
+#Aktualisiert Name eines users -> darf nur admin
+# 2-20 zeichen
 @router.put("/{user_id}", response_model=UserResponse)
 def update_user(
     user_id: int,
@@ -132,20 +147,27 @@ def update_user(
 ):
     require_admin(role)
 
+
+
     logger.info("PUT /users/%s aufgerufen", user_id)
 
-    db_user = base_api.get_or_404(db, DBUser, user_id)
+    db_user =base_api.get_or_404(db, DBUser, user_id)
 
-    existing_user = db.query(DBUser).filter(DBUser.name == user.name).first()
+    duplicate_user =(
+        db.query(DBUser) .filter(DBUser.name == user.name,DBUser.id !=user_id). first()
+    )
 
-    if existing_user and existing_user.id != user_id:
+    if duplicate_user:
+
         raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail=f"Ein anderer User mit dem Namen '{user.name}' existiert bereits."
+            status_code =status.HTTP_409_CONFLICT,
+            detail= f"Ein anderer User mit dem Namen '{user.name}' existiert bereits."
+
         )
 
-    db_user.name = user.name
 
+
+    db_user.name = user.name
     db.commit()
     db.refresh(db_user)
 
@@ -153,18 +175,25 @@ def update_user(
 
     return db_user
 
+#Löscht User -> darf nur admin
+@router.delete("/{user_id}",response_model=DeleteUserResponse, status_code=status.HTTP_200_OK )
 
-@router.delete("/{user_id}")
 def delete_user(
     user_id: int,
     db: Session = Depends(get_db),
-    role: str = Depends(get_current_role)
+    role: str= Depends(get_current_role)
+
 ):
+
     require_admin(role)
+
+    db_user = base_api.get_or_404(db,DBUser,user_id)
+
+
 
     logger.info("DELETE /users/%s aufgerufen", user_id)
 
-    db_user = base_api.get_or_404(db, DBUser, user_id)
+
 
     db.delete(db_user)
     db.commit()
@@ -176,12 +205,13 @@ def delete_user(
         "id": user_id
     }
 
-
+#Gibt alle Swipes eines users zurück
 @router.get("/{user_id}/swipes", response_model=list[UserSwipeResponse])
 def get_user_swipes(
     user_id: int,
     db: Session = Depends(get_db),
     role: str = Depends(get_current_role)
+
 ):
     logger.info("GET /users/%s/swipes aufgerufen", user_id)
 
