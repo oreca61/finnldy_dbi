@@ -1,0 +1,117 @@
+2026-06-17 08:32:46,459 INFO POST /swipes aufgerufen
+2026-06-17 08:32:47,653 INFO POST /swipes aufgerufen
+2026-06-17 08:32:50,990 INFO POST /swipes aufgerufen
+2026-06-17 08:32:54,304 INFO POST /swipes aufgerufen
+2026-06-17 08:32:55,471 INFO POST /swipes aufgerufen
+2026-06-17 08:33:09,532 INFO POST /swipes aufgerufen
+2026-06-17 08:33:14,353 INFO POST /swipes aufgerufen
+2026-06-17 08:33:15,473 INFO POST /swipes aufgerufen
+2026-06-17 08:33:16,020 INFO POST /swipes aufgerufen
+2026-06-17 08:33:16,295 INFO POST /swipes aufgerufen
+2026-06-17 08:33:16,482 INFO POST /swipes aufgerufen
+2026-06-17 08:33:17,551 INFO POST /swipes aufgerufen
+2026-06-17 08:33:17,730 INFO POST /swipes aufgerufen
+2026-06-17 08:33:17,921 INFO POST /swipes aufgerufen
+2026-06-17 08:33:18,077 INFO POST /swipes aufgerufen
+2026-06-17 08:33:18,261 INFO POST /swipes aufgerufen
+2026-06-17 08:33:18,433 INFO POST /swipes aufgerufen
+2026-06-17 08:33:18,611 INFO POST /swipes aufgerufen
+2026-06-17 08:35:58,911 INFO POST /users aufgerufen
+2026-06-17 08:36:24,895 INFO POST /users aufgerufen
+2026-06-17 08:37:35,549 INFO POST /users aufgerufen
+2026-06-17 08:40:47,732 INFO POST /users aufgerufen
+2026-06-17 10:29:26,749 INFO POST /users aufgerufen
+2026-06-17 10:45:44,532 INFO POST /users aufgerufen
+2026-06-17 11:12:36,629 INFO POST /users aufgerufen
+2026-06-17 11:24:35,052 INFO POST /users aufgerufen
+2026-06-17 11:29:18,967 INFO POST /users aufgerufen
+2026-06-17 11:29:23,639 INFO POST /users aufgerufen
+2026-06-17 11:37:09,234 INFO POST /users aufgerufen
+2026-06-17 11:37:09,245 INFO User mit ID 1 wurde erstellt
+2026-06-17 11:40:09,441 INFO POST /swipes aufgerufen
+2026-06-17 11:40:09,470 INFO Swipe gespeichert: User bugatti, Film SternenKrieger, Typ Like
+2026-06-17 11:40:16,875 INFO POST /swipes aufgerufen
+2026-06-17 11:40:16,888 INFO Swipe gespeichert: User bugatti, Film Prinzessin Mononoke, Typ Watched
+2026-06-17 11:40:18,618 INFO POST /swipes aufgerufen
+2026-06-17 11:40:18,631 INFO Swipe gespeichert: User dodge, Film SternenKrieger, Typ Like
+2026-06-17 11:40:20,113 INFO POST /swipes aufgerufen
+2026-06-17 11:40:20,121 INFO Swipe gespeichert: User dodge, Film Prinzessin Mononoke, Typ Like
+2026-06-17 11:40:26,287 INFO POST /swipes aufgerufen
+2026-06-17 11:40:26,302 INFO Swipe gespeichert: User bugatti, Film Chihiros Reise ins Zauberland, Typ Like
+2026-06-17 11:40:28,600 INFO POST /swipes aufgerufen
+2026-06-17 11:40:28,613 INFO Swipe gespeichert: User bugatti, Film Akira, Typ Watched
+2026-06-17 11:40:30,666 INFO POST /swipes aufgerufen
+2026-06-17 11:40:30,675 INFO Swipe gespeichert: User dodge, Film Chihiros Reise ins Zauberland, Typ Like
+2026-06-17 11:40:38,974 INFO POST /swipes aufgerufen
+2026-06-17 11:40:38,986 INFO Swipe gespeichert: User dodge, Film Akira, Typ Dislike
+2026-06-17 11:40:41,425 INFO POST /swipes aufgerufen
+2026-06-17 11:40:41,437 INFO Swipe gespeichert: User bugatti, Film Zatoichi - Der blinde Samurai, Typ WatchLater
+2026-06-17 11:40:41,772 INFO POST /swipes aufgerufen
+2026-06-17 11:40:41,783 INFO Swipe gespeichert: User bugatti, Film Die sieben Samurai, Typ WatchLater
+2026-06-17 11:40:41,928 INFO POST /swipes aufgerufen
+2026-06-17 11:40:41,941 INFO Swipe gespeichert: User bugatti, Film Oldboy, Typ WatchLater
+2026-06-17 11:40:42,081 INFO POST /swipes aufgerufen
+2026-06-17 11:40:42,094 INFO Swipe gespeichert: User bugatti, Film The Host, Typ WatchLater
+2026-06-17 11:40:42,238 INFO POST /swipes aufgerufen
+2026-06-17 11:40:42,251 INFO Swipe gespeichert: User bugatti, Film Das wandelnde Schloss, Typ WatchLater
+2026-06-17 11:40:42,410 INFO POST /swipes aufgerufen
+2026-06-17 11:40:42,425 INFO Swipe gespeichert: User bugatti, Film Paprika, Typ WatchLater
+2026-06-17 11:40:42,560 INFO POST /swipes aufgerufen
+2026-06-17 11:40:42,574 INFO Swipe gespeichert: User bugatti, Film Im Reich der Sinne, Typ WatchLater
+2026-06-17 11:40:42,790 INFO POST /swipes aufgerufen
+2026-06-17 11:40:42,804 INFO Swipe gespeichert: User bugatti, Film Mein Nachbar Totoro, Typ WatchLater
+2026-06-17 11:40:43,377 INFO POST /swipes aufgerufen
+2026-06-17 11:40:43,389 INFO Swipe gespeichert: User bugatti, Film Ghost in The Shell, Typ WatchLater
+2026-06-17 11:40:43,763 INFO POST /swipes aufgerufen
+2026-06-17 11:40:43,783 INFO Swipe gespeichert: User bugatti, Film Perfect Blue, Typ WatchLater
+2026-06-17 11:40:43,918 INFO POST /swipes aufgerufen
+2026-06-17 11:40:43,928 INFO Swipe gespeichert: User bugatti, Film Das Schloss im Himmel, Typ WatchLater
+2026-06-17 11:40:44,720 INFO POST /swipes aufgerufen
+2026-06-17 11:40:44,733 INFO Swipe gespeichert: User bugatti, Film Memories of Murder, Typ WatchLater
+2026-06-17 11:40:44,891 INFO POST /swipes aufgerufen
+2026-06-17 11:40:44,905 INFO Swipe gespeichert: User bugatti, Film Ponyo - Das große Abenteuer am Meer, Typ WatchLater
+2026-06-17 11:40:45,042 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,058 INFO Swipe gespeichert: User bugatti, Film Zwischen Himmel und Hölle, Typ WatchLater
+2026-06-17 11:40:45,181 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,194 INFO Swipe gespeichert: User bugatti, Film Harakiri, Typ WatchLater
+2026-06-17 11:40:45,319 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,334 INFO Swipe gespeichert: User bugatti, Film Sex Is Zero - American Pie war gestern..., Typ WatchLater
+2026-06-17 11:40:45,483 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,493 INFO Swipe gespeichert: User dodge, Film Zatoichi - Der blinde Samurai, Typ WatchLater
+2026-06-17 11:40:45,610 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,622 INFO Swipe gespeichert: User dodge, Film Die sieben Samurai, Typ WatchLater
+2026-06-17 11:40:45,753 INFO POST /swipes aufgerufen
+2026-06-17 11:40:45,763 INFO Swipe gespeichert: User dodge, Film Oldboy, Typ WatchLater
+2026-06-17 11:40:46,086 INFO POST /swipes aufgerufen
+2026-06-17 11:40:46,096 INFO Swipe gespeichert: User dodge, Film The Host, Typ WatchLater
+2026-06-17 11:40:46,230 INFO POST /swipes aufgerufen
+2026-06-17 11:40:46,239 INFO Swipe gespeichert: User dodge, Film Das wandelnde Schloss, Typ WatchLater
+2026-06-17 11:40:46,450 INFO POST /swipes aufgerufen
+2026-06-17 11:40:46,457 INFO Swipe gespeichert: User dodge, Film Paprika, Typ WatchLater
+2026-06-18 10:28:30,669 INFO POST /swipes aufgerufen
+2026-06-18 10:28:30,739 INFO Swipe gespeichert: User mehro, Film SternenKrieger, Typ Like
+2026-06-18 15:31:47,957 INFO GET /users aufgerufen
+2026-06-18 15:32:29,049 INFO GET /swipes/results aufgerufen
+2026-06-18 15:35:04,170 INFO GET /users aufgerufen
+2026-06-18 15:36:46,469 INFO GET /swipes/results aufgerufen
+2026-06-18 19:38:34,756 INFO GET /users aufgerufen
+2026-06-18 20:40:44,987 INFO POST /users aufgerufen
+2026-06-18 20:40:45,002 INFO User mit ID 5 wurde erstellt
+2026-06-21 17:30:36,133 INFO GET /users aufgerufen
+2026-06-21 18:29:59,096 INFO GET /users aufgerufen
+2026-06-21 18:30:58,535 INFO GET /users aufgerufen
+2026-06-21 18:32:22,921 INFO GET /users aufgerufen
+2026-06-21 18:36:35,524 INFO GET /users aufgerufen
+2026-06-21 18:36:59,129 INFO POST /users aufgerufen
+2026-06-21 18:36:59,139 INFO User mit ID 1 wurde erstellt
+2026-06-21 18:37:00,161 INFO POST /users aufgerufen
+2026-06-21 18:37:07,730 INFO GET /users aufgerufen
+2026-06-21 18:37:24,917 INFO DELETE /users/1 aufgerufen
+2026-06-21 18:37:24,932 INFO User mit ID 1 wurde gelöscht
+2026-06-21 19:29:30,032 INFO GET /users aufgerufen
+2026-06-21 19:29:34,062 INFO GET /users aufgerufen
+2026-06-21 19:30:08,607 INFO GET /users aufgerufen
+2026-06-21 19:30:15,177 INFO GET /users aufgerufen
+2026-06-21 19:30:28,675 INFO GET /users aufgerufen
+2026-06-21 19:33:50,081 INFO GET /users aufgerufen
+2026-06-21 19:37:29,600 INFO GET /users aufgerufen

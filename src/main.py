@@ -1,12 +1,11 @@
 import uvicorn
 from fastapi import FastAPI
 
-import models
-from database import engine
-from Routers import users, swipes
+from src.routers import users, swipes
+from src.database import engine
+from src.models import Base
 
-models.Base.metadata.create_all(bind=engine)
-
+Base.metadata.create_all(bind=engine)
 app = FastAPI(
     title="Finnldy API",
     description="REST-API für die Gruppen-Filmempfehlungs-App Finnldy",

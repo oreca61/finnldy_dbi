@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-06-21T18:52:37Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="b29c56d3-0335-4d6e-8072-d7f834a55d1b" name="ERM Finnldy">
+    <mxGraphModel dx="1500" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="980" math="0" shadow="0" background="#0b0b0b">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0b0b0b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1500" height="980" as="geometry"/>
+        </mxCell>
+        <mxCell id="movies" value="Movies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="330" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="swipe" value="swipe" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="635" y="130" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="user" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="130" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="genre" value="Genre" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="925" y="365" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="details" value="Movie_details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="760" width="150" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_movies_swipe" value="hat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="120" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_swipe_user" value="kann" style="rhombus;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="125" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_movies_genre" value="hat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="365" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_movies_details" value="hat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="570" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_swipe_id" value="swipe_id&lt;br&gt;&lt;i&gt;(PK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="45" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_swipe_user_id" value="user_id&lt;br&gt;&lt;i&gt;(FK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="15" width="100" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_swipe_movie_id" value="movie_id&lt;br&gt;&lt;i&gt;(FK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="735" y="18" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_swipe_type" value="swipe_type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="830" y="70" width="115" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_user_id" value="user_id&lt;br&gt;&lt;i&gt;(PK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="25" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_user_name" value="name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="145" width="105" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movie_release" value="releaseDate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="235" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movie_id" value="movie_id&lt;br&gt;&lt;i&gt;(PK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="305" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_api_movie_id" value="api_movie_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="395" width="130" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movie_title" value="title" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="115" y="485" width="105" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movie_description" value="description" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="130" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_genre_id" value="genre_id&lt;br&gt;&lt;i&gt;(PK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1188" y="345" width="115" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_genre" value="genre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="475" width="105" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_bewertung" value="bewertung" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="880" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movie_details_id" value="movie_details_id&lt;br&gt;&lt;i&gt;(PK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="940" width="145" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_movies_id" value="movies_id&lt;br&gt;&lt;i&gt;(FK)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="925" width="110" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_dauer" value="dauer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="910" width="100" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="a_erlaubtes_alter" value="erlaubtes_alter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#cfcfcf;fontColor=#ffffff;fontStyle=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="850" width="150" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_swipe_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_swipe_id" target="swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_swipe_user_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_swipe_user_id" target="swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_swipe_movie_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_swipe_movie_id" target="swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_swipe_type" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_swipe_type" target="swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_user_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_user_id" target="user">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_user_name" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_user_name" target="user">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movie_release" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movie_release" target="movies">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movie_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movie_id" target="movies">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_api_movie_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_api_movie_id" target="movies">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movie_title" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movie_title" target="movies">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movie_description" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movie_description" target="movies">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_genre_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_genre_id" target="genre">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_genre" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_genre" target="genre">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_bewertung" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_bewertung" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movie_details_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movie_details_id" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_movies_id" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_movies_id" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_dauer" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_dauer" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_erlaubtes_alter" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="a_erlaubtes_alter" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_movies_rel_swipe" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="movies" target="rel_movies_swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rel_swipe_swipe" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="rel_movies_swipe" target="swipe">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_swipe_rel_user" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="swipe" target="rel_swipe_user">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rel_user_user" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="rel_swipe_user" target="user">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_movies_rel_genre" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="movies" target="rel_movies_genre">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rel_genre_genre" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="rel_movies_genre" target="genre">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_movies_rel_details" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="movies" target="rel_movies_details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rel_details_details" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#cfcfcf;fontColor=#ffffff;strokeWidth=2;" edge="1" parent="1" source="rel_movies_details" target="details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_ms_n" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="275" y="245" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_ms_1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="535" y="210" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_su_n" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="850" y="210" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_su_1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="210" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_mg_n" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="515" y="430" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_mg_m" value="m" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="865" y="430" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_md_1a" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="265" y="865" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_md_1b" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="535" y="705" width="30" height="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

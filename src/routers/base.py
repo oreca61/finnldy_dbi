@@ -3,7 +3,7 @@ from typing import Type
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 
-from database import Base
+from src.database import Base
 
 
 class BaseAPI:

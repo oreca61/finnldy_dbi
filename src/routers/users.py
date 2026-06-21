@@ -69,9 +69,6 @@ router = APIRouter(
 base_api = BaseAPI()
 
 
-
-# Erstellt einen User in der DB -> darf nur Admin
-# Erwartete Daten: name 2-20 Zeichen
 @router.post("/", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
 def create_user(
     user: UserCreate,
@@ -101,11 +98,6 @@ def create_user(
     return new_user
 
 
-
-# Gibt alle User aus Der DB zurück -> Darf admin & user
-# Es drüfen max 100 User zurück gegeben werden pro abfrage 1-100 Wertebereich
-
-
 @router.get("/", response_model=list[UserResponse])
 def get_all_users(
     db: Session = Depends(get_db),
@@ -120,8 +112,6 @@ def get_all_users(
     return users
 
 
-# Gibt den einzelnen User anhand seiner ID aus -> darf admin & user
-
 @router.get("/{user_id}", response_model=UserResponse)
 def get_user(
     user_id: int,
@@ -132,11 +122,6 @@ def get_user(
 
     return base_api.get_or_404(db, DBUser, user_id)
 
-
-# Aktualisiert Name eines users -> darf nur admin
-# 2-20 zeichen
-
-#Ki Hilfe
 
 @router.put("/{user_id}", response_model=UserResponse)
 def update_user(
@@ -169,11 +154,6 @@ def update_user(
     return db_user
 
 
-#Ki Hilfe
-
-# Löscht User -> darf nur admin
-
-
 @router.delete("/{user_id}")
 def delete_user(
     user_id: int,
@@ -195,9 +175,6 @@ def delete_user(
         "message": "User wurde gelöscht",
         "id": user_id
     }
-
-
-# Gibt alle Swipes eines users zurück
 
 
 @router.get("/{user_id}/swipes", response_model=list[UserSwipeResponse])

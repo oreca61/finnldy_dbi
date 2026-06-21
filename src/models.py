@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Date, DECIMAL, ForeignKey
-from database import Base
+from src.database import Base
 
 
 class DBUser(Base):
