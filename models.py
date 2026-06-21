@@ -50,3 +50,4 @@ class DBMovieDetails(Base):
     dauer = Column(Integer, nullable=True)
     erlaubtes_alter = Column(Integer, nullable=True)
     bewertung = Column(DECIMAL, nullable=True)
+
