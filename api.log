@@ -1,0 +1,295 @@
+2026-06-16 17:32:31,213 INFO GET /users aufgerufen
+2026-06-16 17:33:22,577 INFO POST /users aufgerufen
+2026-06-16 17:33:22,661 INFO User mit ID 1 wurde erstellt
+2026-06-16 17:38:59,447 INFO POST /users aufgerufen
+2026-06-16 17:38:59,458 INFO User mit ID 2 wurde erstellt
+2026-06-16 17:39:19,404 INFO GET /users aufgerufen
+2026-06-16 19:39:49,267 INFO POST /swipes aufgerufen
+2026-06-16 19:39:49,308 INFO Swipe gespeichert: User Jakob, Film Testfilm, Typ Like
+2026-06-16 19:42:30,545 INFO GET /swipes/results aufgerufen
+2026-06-16 19:43:52,482 INFO GET /swipes/results aufgerufen
+2026-06-16 19:44:33,458 INFO GET /swipes/results aufgerufen
+2026-06-16 19:47:43,852 INFO GET /swipes/results aufgerufen
+2026-06-16 19:56:13,788 INFO POST /swipes aufgerufen
+2026-06-16 19:56:13,838 INFO Swipe gespeichert: User sgs, Film Krieg der Sterne, Typ Like
+2026-06-16 19:56:24,011 INFO GET /swipes/results aufgerufen
+2026-06-16 19:56:32,829 INFO POST /swipes aufgerufen
+2026-06-16 19:56:32,865 INFO Swipe gespeichert: User sgs, Film Findet Nemo, Typ WatchLater
+2026-06-16 19:56:34,162 INFO POST /swipes aufgerufen
+2026-06-16 19:56:34,177 INFO Swipe gespeichert: User sgs, Film Findet Nemo, Typ WatchLater
+2026-06-16 19:56:43,371 INFO GET /swipes/results aufgerufen
+2026-06-16 19:58:10,068 INFO POST /swipes aufgerufen
+2026-06-16 19:58:10,088 INFO Swipe gespeichert: User jak, Film Krieg der Sterne, Typ Like
+2026-06-16 19:58:10,833 INFO POST /swipes aufgerufen
+2026-06-16 19:58:10,846 INFO Swipe gespeichert: User jak, Film Findet Nemo, Typ Like
+2026-06-16 19:58:11,516 INFO POST /swipes aufgerufen
+2026-06-16 19:58:11,541 INFO Swipe gespeichert: User jak, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Like
+2026-06-16 19:58:12,529 INFO POST /swipes aufgerufen
+2026-06-16 19:58:12,548 INFO Swipe gespeichert: User jak, Film 2001: Odyssee im Weltraum, Typ Dislike
+2026-06-16 19:58:13,442 INFO POST /swipes aufgerufen
+2026-06-16 19:58:13,466 INFO Swipe gespeichert: User jak, Film Krieg der Welten, Typ Watched
+2026-06-16 19:58:14,790 INFO POST /swipes aufgerufen
+2026-06-16 19:58:14,812 INFO Swipe gespeichert: User jak, Film Krieg der Welten, Typ Watched
+2026-06-16 19:58:15,625 INFO POST /swipes aufgerufen
+2026-06-16 19:58:15,647 INFO Swipe gespeichert: User jak, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-16 19:58:16,131 INFO POST /swipes aufgerufen
+2026-06-16 19:58:16,164 INFO Swipe gespeichert: User jak, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-16 19:58:17,140 INFO POST /swipes aufgerufen
+2026-06-16 19:58:17,166 INFO Swipe gespeichert: User jak, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-16 19:58:18,019 INFO POST /swipes aufgerufen
+2026-06-16 19:58:18,057 INFO Swipe gespeichert: User jak, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-16 19:58:19,025 INFO POST /swipes aufgerufen
+2026-06-16 19:58:19,047 INFO Swipe gespeichert: User jak, Film Gladiator, Typ Dislike
+2026-06-16 19:58:20,474 INFO POST /swipes aufgerufen
+2026-06-16 19:58:20,507 INFO Swipe gespeichert: User jak, Film Predator, Typ WatchLater
+2026-06-16 19:58:21,265 INFO POST /swipes aufgerufen
+2026-06-16 19:58:21,288 INFO Swipe gespeichert: User jak, Film Charlie und die Schokoladenfabrik, Typ Like
+2026-06-16 19:58:22,041 INFO POST /swipes aufgerufen
+2026-06-16 19:58:22,062 INFO Swipe gespeichert: User jak, Film Der Herr der Ringe - Die Gefährten, Typ Like
+2026-06-16 19:58:22,746 INFO POST /swipes aufgerufen
+2026-06-16 19:58:22,785 INFO Swipe gespeichert: User jak, Film Der Herr der Ringe - Die zwei Türme, Typ Like
+2026-06-16 19:58:23,433 INFO POST /swipes aufgerufen
+2026-06-16 19:58:23,466 INFO Swipe gespeichert: User jak, Film Der Herr der Ringe - Die Rückkehr des Königs, Typ Like
+2026-06-16 19:58:24,673 INFO POST /swipes aufgerufen
+2026-06-16 19:58:24,698 INFO Swipe gespeichert: User jak, Film Der Herr der Ringe - Die Rückkehr des Königs, Typ Like
+2026-06-16 19:58:26,667 INFO POST /swipes aufgerufen
+2026-06-16 19:58:26,692 INFO Swipe gespeichert: User jak, Film Pirates of the Caribbean - Am Ende der Welt, Typ Like
+2026-06-16 19:58:27,348 INFO POST /swipes aufgerufen
+2026-06-16 19:58:27,374 INFO Swipe gespeichert: User jak, Film Jurassic Park, Typ Like
+2026-06-16 19:58:28,034 INFO POST /swipes aufgerufen
+2026-06-16 19:58:28,057 INFO Swipe gespeichert: User jak, Film Alien vs. Predator, Typ Like
+2026-06-16 19:58:28,747 INFO POST /swipes aufgerufen
+2026-06-16 19:58:28,768 INFO Swipe gespeichert: User jak, Film Alien vs. Predator, Typ Like
+2026-06-16 19:58:29,393 INFO POST /swipes aufgerufen
+2026-06-16 19:58:29,415 INFO Swipe gespeichert: User jak, Film Die Chroniken von Narnia: Der König von Narnia, Typ Like
+2026-06-16 19:58:30,068 INFO POST /swipes aufgerufen
+2026-06-16 19:58:30,114 INFO Swipe gespeichert: User jak, Film Batman & Robin, Typ Like
+2026-06-16 19:58:30,634 INFO POST /swipes aufgerufen
+2026-06-16 19:58:30,660 INFO Swipe gespeichert: User jak, Film Ice Age, Typ Like
+2026-06-16 19:58:31,329 INFO POST /swipes aufgerufen
+2026-06-16 19:58:31,349 INFO Swipe gespeichert: User jak, Film The Day After Tomorrow, Typ Like
+2026-06-16 19:58:32,321 INFO POST /swipes aufgerufen
+2026-06-16 19:58:32,342 INFO Swipe gespeichert: User jak, Film Spider-Man 3, Typ Like
+2026-06-16 19:58:32,617 INFO POST /swipes aufgerufen
+2026-06-16 19:58:32,630 INFO Swipe gespeichert: User jak, Film Spider-Man 3, Typ Like
+2026-06-16 19:59:07,508 INFO POST /swipes aufgerufen
+2026-06-16 19:59:07,521 INFO Swipe gespeichert: User Jakob, Film Krieg der Sterne, Typ Like
+2026-06-16 19:59:08,473 INFO POST /swipes aufgerufen
+2026-06-16 19:59:08,495 INFO Swipe gespeichert: User Jakob, Film Findet Nemo, Typ Watched
+2026-06-16 19:59:09,291 INFO POST /swipes aufgerufen
+2026-06-16 19:59:09,314 INFO Swipe gespeichert: User Jakob, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-16 19:59:10,121 INFO POST /swipes aufgerufen
+2026-06-16 19:59:10,130 INFO Swipe gespeichert: User Jakob, Film 2001: Odyssee im Weltraum, Typ WatchLater
+2026-06-16 19:59:10,787 INFO POST /swipes aufgerufen
+2026-06-16 19:59:10,805 INFO Swipe gespeichert: User Jakob, Film Krieg der Welten, Typ Like
+2026-06-16 19:59:11,785 INFO POST /swipes aufgerufen
+2026-06-16 19:59:11,808 INFO Swipe gespeichert: User Jakob, Film Krieg der Welten, Typ Like
+2026-06-16 19:59:13,138 INFO POST /swipes aufgerufen
+2026-06-16 19:59:13,152 INFO Swipe gespeichert: User Jakob, Film Jäger des verlorenen Schatzes, Typ Like
+2026-06-16 19:59:13,682 INFO POST /swipes aufgerufen
+2026-06-16 19:59:13,697 INFO Swipe gespeichert: User Jakob, Film Jäger des verlorenen Schatzes, Typ Like
+2026-06-16 19:59:14,515 INFO POST /swipes aufgerufen
+2026-06-16 19:59:14,542 INFO Swipe gespeichert: User Jakob, Film Indiana Jones und der Tempel des Todes, Typ Dislike
+2026-06-16 19:59:15,373 INFO POST /swipes aufgerufen
+2026-06-16 19:59:15,399 INFO Swipe gespeichert: User Jakob, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-16 19:59:16,242 INFO POST /swipes aufgerufen
+2026-06-16 19:59:16,255 INFO Swipe gespeichert: User Jakob, Film Gladiator, Typ Like
+2026-06-16 19:59:16,929 INFO POST /swipes aufgerufen
+2026-06-16 19:59:16,940 INFO Swipe gespeichert: User Jakob, Film Predator, Typ Like
+2026-06-16 19:59:17,523 INFO POST /swipes aufgerufen
+2026-06-16 19:59:17,550 INFO Swipe gespeichert: User Jakob, Film Charlie und die Schokoladenfabrik, Typ Like
+2026-06-16 19:59:18,105 INFO POST /swipes aufgerufen
+2026-06-16 19:59:18,120 INFO Swipe gespeichert: User Jakob, Film Der Herr der Ringe - Die Gefährten, Typ Like
+2026-06-16 19:59:18,569 INFO POST /swipes aufgerufen
+2026-06-16 19:59:18,593 INFO Swipe gespeichert: User Jakob, Film Der Herr der Ringe - Die zwei Türme, Typ Like
+2026-06-17 08:40:19,731 INFO POST /users aufgerufen
+2026-06-17 08:40:19,757 INFO User mit ID 5 wurde erstellt
+2026-06-17 09:01:10,866 INFO POST /swipes aufgerufen
+2026-06-17 09:01:10,946 INFO Swipe gespeichert: User Merp, Film Sex Is Zero - American Pie war gestern..., Typ Like
+2026-06-17 09:01:21,698 INFO POST /swipes aufgerufen
+2026-06-17 09:01:21,755 INFO Swipe gespeichert: User Jabobe, Film Sex Is Zero - American Pie war gestern..., Typ Dislike
+2026-06-17 09:04:14,664 INFO POST /swipes aufgerufen
+2026-06-17 09:04:14,708 INFO Swipe gespeichert: User Merp, Film A Tale Of A Legendary Libido, Typ Like
+2026-06-17 09:04:17,687 INFO POST /swipes aufgerufen
+2026-06-17 09:04:17,702 INFO Swipe gespeichert: User Jabobe, Film A Tale Of A Legendary Libido, Typ Like
+2026-06-17 09:04:18,741 INFO POST /swipes aufgerufen
+2026-06-17 09:04:21,725 INFO POST /swipes aufgerufen
+2026-06-17 09:04:22,754 INFO POST /swipes aufgerufen
+2026-06-17 09:04:23,911 INFO POST /swipes aufgerufen
+2026-06-17 09:04:25,078 INFO POST /swipes aufgerufen
+2026-06-17 09:04:25,154 INFO Swipe gespeichert: User Merp, Film Love Lesson, Typ Dislike
+2026-06-17 09:04:26,685 INFO POST /swipes aufgerufen
+2026-06-17 09:04:27,215 INFO POST /swipes aufgerufen
+2026-06-17 09:04:27,979 INFO POST /swipes aufgerufen
+2026-06-17 09:04:28,001 INFO Swipe gespeichert: User Jabobe, Film Love Lesson, Typ Dislike
+2026-06-17 09:04:28,710 INFO POST /swipes aufgerufen
+2026-06-17 09:04:28,744 INFO Swipe gespeichert: User Jabobe, Film The Torture Club, Typ Dislike
+2026-06-17 09:04:30,037 INFO POST /swipes aufgerufen
+2026-06-17 09:04:30,089 INFO Swipe gespeichert: User Merp, Film The Torture Club, Typ Dislike
+2026-06-17 09:04:30,682 INFO POST /swipes aufgerufen
+2026-06-17 09:04:31,789 INFO POST /swipes aufgerufen
+2026-06-17 09:04:31,846 INFO Swipe gespeichert: User Merp, Film Parasite, Typ Dislike
+2026-06-17 09:04:32,947 INFO POST /swipes aufgerufen
+2026-06-17 09:04:33,672 INFO POST /swipes aufgerufen
+2026-06-17 09:04:33,705 INFO Swipe gespeichert: User Jabobe, Film Parasite, Typ Dislike
+2026-06-17 09:04:34,309 INFO POST /swipes aufgerufen
+2026-06-17 09:05:00,853 INFO POST /swipes aufgerufen
+2026-06-17 09:05:02,481 INFO POST /swipes aufgerufen
+2026-06-17 09:05:07,480 INFO POST /swipes aufgerufen
+2026-06-17 09:05:07,558 INFO Swipe gespeichert: User Merp, Film Exit, Typ Dislike
+2026-06-17 09:11:14,921 INFO POST /swipes aufgerufen
+2026-06-17 09:11:14,993 INFO Swipe gespeichert: User Jabobe, Film Findet Nemo, Typ Dislike
+2026-06-17 09:11:26,716 INFO POST /swipes aufgerufen
+2026-06-17 09:11:26,792 INFO Swipe gespeichert: User nfd, Film Findet Nemo, Typ Like
+2026-06-17 09:11:30,604 INFO POST /swipes aufgerufen
+2026-06-17 09:11:30,680 INFO Swipe gespeichert: User nfd, Film Fluch der Karibik, Typ Like
+2026-06-17 09:11:33,546 INFO POST /swipes aufgerufen
+2026-06-17 09:11:33,597 INFO Swipe gespeichert: User Jabobe, Film Fluch der Karibik, Typ Like
+2026-06-17 09:11:34,581 INFO POST /swipes aufgerufen
+2026-06-17 09:11:34,633 INFO Swipe gespeichert: User Jabobe, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-17 09:11:35,880 INFO POST /swipes aufgerufen
+2026-06-17 09:11:35,911 INFO Swipe gespeichert: User nfd, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-17 09:11:37,480 INFO POST /swipes aufgerufen
+2026-06-17 09:11:37,533 INFO Swipe gespeichert: User Jabobe, Film 2001: Odyssee im Weltraum, Typ Dislike
+2026-06-17 09:11:41,878 INFO POST /swipes aufgerufen
+2026-06-17 09:11:41,929 INFO Swipe gespeichert: User nfd, Film 2001: Odyssee im Weltraum, Typ Watched
+2026-06-17 09:11:42,937 INFO POST /swipes aufgerufen
+2026-06-17 09:11:42,990 INFO Swipe gespeichert: User nfd, Film Krieg der Welten, Typ Dislike
+2026-06-17 09:11:49,799 INFO POST /swipes aufgerufen
+2026-06-17 09:11:49,825 INFO Swipe gespeichert: User nfd, Film Jäger des verlorenen Schatzes, Typ WatchLater
+2026-06-17 09:11:55,218 INFO POST /swipes aufgerufen
+2026-06-17 09:11:55,243 INFO Swipe gespeichert: User Jabobe, Film Krieg der Welten, Typ WatchLater
+2026-06-17 09:11:56,468 INFO POST /swipes aufgerufen
+2026-06-17 09:11:56,521 INFO Swipe gespeichert: User Jabobe, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-17 09:11:57,835 INFO POST /swipes aufgerufen
+2026-06-17 09:11:57,886 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:12:00,353 INFO POST /swipes aufgerufen
+2026-06-17 09:12:00,414 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:12:01,307 INFO POST /swipes aufgerufen
+2026-06-17 09:12:01,361 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-17 09:12:02,283 INFO POST /swipes aufgerufen
+2026-06-17 09:12:02,354 INFO Swipe gespeichert: User Jabobe, Film Armageddon - Das jüngste Gericht, Typ Watched
+2026-06-17 09:16:26,236 INFO POST /swipes aufgerufen
+2026-06-17 09:16:26,316 INFO Swipe gespeichert: User 10.161.1.17, Film Findet Nemo, Typ Like
+2026-06-17 09:19:10,334 INFO POST /swipes aufgerufen
+2026-06-17 09:19:10,381 INFO Swipe gespeichert: User User, Film Findet Nemo, Typ Like
+2026-06-17 09:19:13,003 INFO POST /swipes aufgerufen
+2026-06-17 09:19:13,070 INFO Swipe gespeichert: User Jabobe, Film Findet Nemo, Typ Dislike
+2026-06-17 09:19:13,922 INFO POST /swipes aufgerufen
+2026-06-17 09:19:13,974 INFO Swipe gespeichert: User Jabobe, Film Fluch der Karibik, Typ Like
+2026-06-17 09:19:15,325 INFO POST /swipes aufgerufen
+2026-06-17 09:19:15,353 INFO Swipe gespeichert: User User, Film Fluch der Karibik, Typ Dislike
+2026-06-17 09:19:16,118 INFO POST /swipes aufgerufen
+2026-06-17 09:19:16,147 INFO Swipe gespeichert: User User, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Watched
+2026-06-17 09:19:17,972 INFO POST /swipes aufgerufen
+2026-06-17 09:19:18,026 INFO Swipe gespeichert: User Jabobe, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Watched
+2026-06-17 09:19:19,933 INFO POST /swipes aufgerufen
+2026-06-17 09:19:19,986 INFO Swipe gespeichert: User User, Film 2001: Odyssee im Weltraum, Typ WatchLater
+2026-06-17 09:19:21,680 INFO POST /swipes aufgerufen
+2026-06-17 09:19:21,746 INFO Swipe gespeichert: User Jabobe, Film 2001: Odyssee im Weltraum, Typ Dislike
+2026-06-17 09:19:23,294 INFO POST /swipes aufgerufen
+2026-06-17 09:19:23,337 INFO Swipe gespeichert: User User, Film Krieg der Welten, Typ Watched
+2026-06-17 09:19:25,068 INFO POST /swipes aufgerufen
+2026-06-17 09:19:25,134 INFO Swipe gespeichert: User Jabobe, Film Krieg der Welten, Typ Like
+2026-06-17 09:19:26,662 INFO POST /swipes aufgerufen
+2026-06-17 09:19:26,720 INFO Swipe gespeichert: User User, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-17 09:19:27,615 INFO POST /swipes aufgerufen
+2026-06-17 09:19:27,641 INFO Swipe gespeichert: User User, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:19:29,335 INFO POST /swipes aufgerufen
+2026-06-17 09:19:29,370 INFO Swipe gespeichert: User Jabobe, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-17 09:19:30,696 INFO POST /swipes aufgerufen
+2026-06-17 09:19:30,718 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:19:31,496 INFO POST /swipes aufgerufen
+2026-06-17 09:19:31,540 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:19:32,930 INFO POST /swipes aufgerufen
+2026-06-17 09:19:32,967 INFO Swipe gespeichert: User User, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 09:19:34,667 INFO POST /swipes aufgerufen
+2026-06-17 09:19:34,707 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der letzte Kreuzzug, Typ Dislike
+2026-06-17 09:19:36,182 INFO POST /swipes aufgerufen
+2026-06-17 09:19:36,227 INFO Swipe gespeichert: User User, Film Indiana Jones und der letzte Kreuzzug, Typ Watched
+2026-06-17 09:19:38,307 INFO POST /swipes aufgerufen
+2026-06-17 09:19:38,369 INFO Swipe gespeichert: User User, Film Armageddon - Das jüngste Gericht, Typ Watched
+2026-06-17 09:19:39,845 INFO POST /swipes aufgerufen
+2026-06-17 09:19:39,906 INFO Swipe gespeichert: User User, Film Gladiator, Typ Dislike
+2026-06-17 09:19:41,030 INFO POST /swipes aufgerufen
+2026-06-17 09:19:41,079 INFO Swipe gespeichert: User Jabobe, Film Armageddon - Das jüngste Gericht, Typ Dislike
+2026-06-17 14:09:07,605 INFO POST /swipes aufgerufen
+2026-06-17 14:09:07,641 INFO Swipe gespeichert: User ifuheh, Film Findet Nemo, Typ Like
+2026-06-17 14:09:09,629 INFO POST /swipes aufgerufen
+2026-06-17 14:09:09,651 INFO Swipe gespeichert: User Jabobe, Film Findet Nemo, Typ Dislike
+2026-06-17 14:09:11,154 INFO POST /swipes aufgerufen
+2026-06-17 14:09:11,172 INFO Swipe gespeichert: User Jabobe, Film Fluch der Karibik, Typ Like
+2026-06-17 14:09:12,286 INFO POST /swipes aufgerufen
+2026-06-17 14:09:12,308 INFO Swipe gespeichert: User ifuheh, Film Fluch der Karibik, Typ Watched
+2026-06-17 14:09:14,175 INFO POST /swipes aufgerufen
+2026-06-17 14:09:14,190 INFO Swipe gespeichert: User Jabobe, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ WatchLater
+2026-06-17 14:09:15,935 INFO POST /swipes aufgerufen
+2026-06-17 14:09:15,950 INFO Swipe gespeichert: User ifuheh, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-17 14:09:17,151 INFO POST /swipes aufgerufen
+2026-06-17 14:09:17,185 INFO Swipe gespeichert: User ifuheh, Film 2001: Odyssee im Weltraum, Typ Like
+2026-06-17 14:09:18,580 INFO POST /swipes aufgerufen
+2026-06-17 14:09:18,604 INFO Swipe gespeichert: User Jabobe, Film 2001: Odyssee im Weltraum, Typ Dislike
+2026-06-17 14:09:20,223 INFO POST /swipes aufgerufen
+2026-06-17 14:09:20,240 INFO Swipe gespeichert: User ifuheh, Film Krieg der Welten, Typ Like
+2026-06-17 14:09:22,004 INFO POST /swipes aufgerufen
+2026-06-17 14:09:22,027 INFO Swipe gespeichert: User Jabobe, Film Krieg der Welten, Typ Dislike
+2026-06-17 14:09:22,984 INFO POST /swipes aufgerufen
+2026-06-17 14:09:23,010 INFO Swipe gespeichert: User Jabobe, Film Jäger des verlorenen Schatzes, Typ Like
+2026-06-17 14:09:23,594 INFO POST /swipes aufgerufen
+2026-06-17 14:09:23,620 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Dislike
+2026-06-17 14:09:25,248 INFO POST /swipes aufgerufen
+2026-06-17 14:09:25,263 INFO Swipe gespeichert: User ifuheh, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-17 14:09:26,585 INFO POST /swipes aufgerufen
+2026-06-17 14:09:26,605 INFO Swipe gespeichert: User ifuheh, Film Indiana Jones und der Tempel des Todes, Typ Dislike
+2026-06-17 14:09:27,465 INFO POST /swipes aufgerufen
+2026-06-17 14:09:27,493 INFO Swipe gespeichert: User ifuheh, Film Indiana Jones und der Tempel des Todes, Typ Dislike
+2026-06-17 14:09:28,558 INFO POST /swipes aufgerufen
+2026-06-17 14:09:28,574 INFO Swipe gespeichert: User ifuheh, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-17 14:09:29,762 INFO POST /swipes aufgerufen
+2026-06-17 14:09:29,787 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 14:09:30,847 INFO POST /swipes aufgerufen
+2026-06-17 14:09:30,871 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der letzte Kreuzzug, Typ Dislike
+2026-06-17 14:09:32,224 INFO POST /swipes aufgerufen
+2026-06-17 14:09:32,247 INFO Swipe gespeichert: User ifuheh, Film Armageddon - Das jüngste Gericht, Typ Dislike
+2026-06-17 14:09:33,807 INFO POST /swipes aufgerufen
+2026-06-17 14:09:33,829 INFO Swipe gespeichert: User Jabobe, Film Armageddon - Das jüngste Gericht, Typ Like
+2026-06-17 14:19:09,215 INFO POST /swipes aufgerufen
+2026-06-17 14:19:09,288 INFO Swipe gespeichert: User dhg, Film Findet Nemo, Typ Like
+2026-06-17 14:19:11,261 INFO POST /swipes aufgerufen
+2026-06-17 14:19:11,275 INFO Swipe gespeichert: User Jabobe, Film Findet Nemo, Typ Dislike
+2026-06-17 14:19:12,021 INFO POST /swipes aufgerufen
+2026-06-17 14:19:12,037 INFO Swipe gespeichert: User Jabobe, Film Fluch der Karibik, Typ Dislike
+2026-06-17 14:19:12,981 INFO POST /swipes aufgerufen
+2026-06-17 14:19:13,030 INFO Swipe gespeichert: User dhg, Film Fluch der Karibik, Typ Like
+2026-06-17 14:19:13,973 INFO POST /swipes aufgerufen
+2026-06-17 14:19:13,997 INFO Swipe gespeichert: User Jabobe, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-17 14:19:14,755 INFO POST /swipes aufgerufen
+2026-06-17 14:19:14,805 INFO Swipe gespeichert: User Jabobe, Film 2001: Odyssee im Weltraum, Typ Like
+2026-06-17 14:19:15,918 INFO POST /swipes aufgerufen
+2026-06-17 14:19:15,979 INFO Swipe gespeichert: User dhg, Film Pirates of the Caribbean - Fluch der Karibik 2, Typ Dislike
+2026-06-17 14:19:17,213 INFO POST /swipes aufgerufen
+2026-06-17 14:19:17,229 INFO Swipe gespeichert: User dhg, Film 2001: Odyssee im Weltraum, Typ WatchLater
+2026-06-17 14:19:18,021 INFO POST /swipes aufgerufen
+2026-06-17 14:19:18,062 INFO Swipe gespeichert: User dhg, Film Krieg der Welten, Typ Like
+2026-06-17 14:19:19,285 INFO POST /swipes aufgerufen
+2026-06-17 14:19:19,347 INFO Swipe gespeichert: User Jabobe, Film Krieg der Welten, Typ Dislike
+2026-06-17 14:19:20,039 INFO POST /swipes aufgerufen
+2026-06-17 14:19:20,057 INFO Swipe gespeichert: User Jabobe, Film Jäger des verlorenen Schatzes, Typ Like
+2026-06-17 14:19:21,318 INFO POST /swipes aufgerufen
+2026-06-17 14:19:21,372 INFO Swipe gespeichert: User dhg, Film Jäger des verlorenen Schatzes, Typ Dislike
+2026-06-17 14:19:22,315 INFO POST /swipes aufgerufen
+2026-06-17 14:19:22,365 INFO Swipe gespeichert: User dhg, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 14:19:23,701 INFO POST /swipes aufgerufen
+2026-06-17 14:19:23,763 INFO Swipe gespeichert: User dhg, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 14:19:24,684 INFO POST /swipes aufgerufen
+2026-06-17 14:19:24,743 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 14:19:26,141 INFO POST /swipes aufgerufen
+2026-06-17 14:19:26,180 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der Tempel des Todes, Typ Like
+2026-06-17 14:19:27,414 INFO POST /swipes aufgerufen
+2026-06-17 14:19:27,439 INFO Swipe gespeichert: User Jabobe, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-17 14:19:28,733 INFO POST /swipes aufgerufen
+2026-06-17 14:19:28,794 INFO Swipe gespeichert: User dhg, Film Indiana Jones und der letzte Kreuzzug, Typ Like
+2026-06-17 14:19:29,574 INFO POST /swipes aufgerufen
+2026-06-17 14:19:29,593 INFO Swipe gespeichert: User dhg, Film Armageddon - Das jüngste Gericht, Typ Like
+2026-06-17 14:19:30,581 INFO POST /swipes aufgerufen
+2026-06-17 14:19:30,636 INFO Swipe gespeichert: User Jabobe, Film Armageddon - Das jüngste Gericht, Typ Like
